@@ -35,15 +35,16 @@ const AppHeader = () => {
 
 const HeaderContainer = styled.header`
   width: 100%;
-  height: 68px;
+  height: 60px;
   display: flex;
   padding: 10px;
-  box-shadow: 0 4px 3px -4px #333;
+  box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
 `;
 
 const HeaderNav = styled.nav`
-  width: 100%;
+  width: 90%;
   height: 100%;
+  margin: 0 auto;
   display: flex;
   align-items: center;
   backdrop-filter: blur(4px);
@@ -52,7 +53,7 @@ const HeaderNav = styled.nav`
 const Home = styled(NavLink)``;
 
 const Logo = styled.img.attrs({ src: avatar, alt: "Logo" })`
-  width: 45px;
+  width: 40px;
 `;
 
 const NavList = styled.ul`
