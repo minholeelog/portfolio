@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react';
 
 const PageNotFound = () => {
-  return <div>404 : 존재하지 않는 페이지입니다...</div>;
+  return <main className="main">404 : 존재하지 않는 페이지입니다...</main>;
 };
 
 export default PageNotFound;

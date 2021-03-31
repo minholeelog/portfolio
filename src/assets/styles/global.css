@@ -5,6 +5,10 @@
   list-style: none;
 }
 
+html {
+  overflow-y: scroll;
+}
+
 a {
   text-decoration: none;
   color: inherit;
