@@ -1,66 +1,58 @@
-import React from "react";
-import ReactWordCloud from "react-wordcloud";
-import styled from "styled-components";
+import React from 'react';
+import ReactWordCloud from 'react-wordcloud';
+import styled from 'styled-components';
 
 const words = [
   {
-    text: "Frontend",
+    text: 'Frontend',
     value: 50,
   },
   {
-    text: "Junior",
+    text: 'Web',
     value: 50,
   },
   {
-    text: "Web",
-    value: 50,
-  },
-  {
-    text: "Developer",
-    value: 50,
-  },
-  {
-    text: "React",
+    text: 'React',
     value: 50,
   },
 
   {
-    text: "Node.js",
+    text: 'Node.js',
     value: 50,
   },
   {
-    text: "Vue",
+    text: 'Vue',
     value: 50,
   },
   {
-    text: "ES6",
+    text: 'ES6',
     value: 50,
   },
   {
-    text: "JavaScript",
+    text: 'JavaScript',
     value: 50,
   },
   {
-    text: "MongoDB",
+    text: 'MongoDB',
     value: 50,
   },
   {
-    text: "HTML5",
+    text: 'HTML5',
     value: 50,
   },
   {
-    text: "CSS3",
+    text: 'CSS3',
     value: 50,
   },
   {
-    text: "Git",
+    text: 'Git',
     value: 50,
   },
 ];
 
 const options = {
   fontWeight: 500,
-  fontFamily: "Nanum Gothic",
+  fontFamily: 'Nanum Gothic',
 };
 const size = [700, 400];
 

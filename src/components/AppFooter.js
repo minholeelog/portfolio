@@ -14,12 +14,12 @@ function AppFooter({ info }) {
           <FooterList>
             <FooterItem>
               <FooterLink href={github} target='_blank'>
-                <i class='fab fa-github'></i>
+                <i className='fab fa-github'></i>
               </FooterLink>
             </FooterItem>
             <FooterItem>
               <FooterLink href={email}>
-                <i class='fas fa-at'></i>
+                <i className='fas fa-at'></i>
               </FooterLink>
             </FooterItem>
           </FooterList>
