@@ -80,14 +80,25 @@ const ProjectList = styled.ul`
   width: 100%;
   display: flex;
   justify-content: space-around;
+
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+    align-items: center;
+  }
 `;
 
-const ProjectItem = styled.li``;
+const ProjectItem = styled.li`
+  margin: 0 20px;
+
+  @media screen and (max-width: 768px) {
+    margin: 20px;
+  }
+`;
 
 const ProjectLink = styled(Link)``;
 
 const ProjectThumbnail = styled.img`
-  width: 300px;
+  width: 20vw;
   border-radius: 8px;
   transition: 0.3s;
   opacity: 0.8;

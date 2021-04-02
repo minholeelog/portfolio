@@ -45,6 +45,10 @@ const HeaderContainer = styled.header`
   backdrop-filter: blur(4px);
   position: sticky;
   top: 0;
+
+  @media screen and (max-width: 768px) {
+    height: 40px;
+  }
 `;
 
 const HeaderNav = styled.nav`
@@ -58,10 +62,17 @@ const HeaderNav = styled.nav`
 const Home = styled(NavLink)`
   display: flex;
   align-items: center;
+
+  @media screen and (max-width: 480px) {
+    display: none;
+  }
 `;
 
 const Logo = styled.img.attrs({ src: avatar, alt: 'Logo' })`
   width: 40px;
+  @media screen and (max-width: 768px) {
+    width: 25px;
+  }
 `;
 
 const Title = styled.span`
@@ -69,6 +80,9 @@ const Title = styled.span`
   margin-left: 10px;
   &:hover {
     color: #79a3d9;
+  }
+  @media screen and (max-width: 768px) {
+    font-size: 20px;
   }
 `;
 
@@ -102,6 +116,10 @@ const Linker = styled(NavLink)`
   &.active:hover {
     color: #79a3d9;
   }
+
+  @media screen and (max-width: 768px) {
+    font-size: 12px;
+  }
 `;
 
 const OuterLink = styled.a`
@@ -116,6 +134,13 @@ const OuterLink = styled.a`
   &:hover {
     color: #79a3d9;
     border-bottom: 3px solid #79a3d9;
+  }
+
+  @media screen and (max-width: 768px) {
+    font-size: 12px;
+  }
+  @media screen and (max-width: 480px) {
+    display: none;
   }
 `;
 

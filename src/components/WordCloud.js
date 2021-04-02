@@ -54,11 +54,9 @@ const options = {
   fontWeight: 500,
   fontFamily: 'Nanum Gothic',
 };
-const size = [800, 500];
 
-const WordCloudContainer = (e) => {
-  console.log(e);
-  return <WordCloud words={words} size={size} options={options} />;
+const WordCloudContainer = () => {
+  return <WordCloud words={words} options={options} />;
 };
 
 const WordCloud = styled(ReactWordCloud)`

@@ -83,23 +83,35 @@ const About = () => {
 
 const AboutContainer = styled.div`
   width: 80%;
-  height: 70vh;
+  min-height: 70vh;
   display: grid;
 `;
 
 const AboutColumn = styled.div``;
 
 const AboutSubtitle = styled.h2`
-  margin-bottom: 10px;
+  margin: 15px 0;
+
+  @media screen and (max-width: 768px) {
+    margin: 20px 0;
+  }
 `;
 
 const InnerColumn = styled.div`
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+
+  @media screen and (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
 `;
 
 const AboutRow = styled.div`
   padding: 0 10px;
+
+  &:nth-child(2) {
+    margin: 20px 0;
+  }
 `;
 
 const AboutList = styled.ul`
