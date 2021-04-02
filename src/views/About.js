@@ -90,23 +90,27 @@ const InnerColumn = styled.div`
   }
 `;
 
-const AboutRow = styled.div`
+const AboutRow = styled.ul`
   padding: 0 10px;
 
-  &:nth-child(2) {
-    margin: 20px 0;
+  @media screen and (max-width: 768px) {
+    &:nth-child(2) {
+      margin: 20px 0;
+    }
   }
 `;
 
-const AboutList = styled.ul`
+const AboutList = styled.li`
   padding: 8px 10px;
+  display: flex;
+  align-items: center;
 `;
 
 const AboutContent = styled.span`
   display: inline-block;
   margin-left: 8px;
   @media screen and (max-width: 480px) {
-    font-size: 8px;
+    font-size: 10px;
   }
 `;
 
