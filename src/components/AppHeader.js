@@ -88,6 +88,7 @@ const Linker = styled(NavLink)`
   margin: 10px;
   font-size: 19px;
   font-weight: 600;
+  text-transform: uppercase;
 
   color: #000;
   &:hover {
@@ -110,6 +111,8 @@ const OuterLink = styled.a`
   padding: 5px 5px 2px;
   margin: 10px;
   color: #000;
+  text-transform: uppercase;
+
   &:hover {
     color: #79a3d9;
     border-bottom: 3px solid #79a3d9;

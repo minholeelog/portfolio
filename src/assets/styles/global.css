@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&family=Roboto+Slab:wght@400;700&family=Yeon+Sung&display=swap');
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   list-style: none;
+  font-family: 'Roboto Slab', serif;
 }
 
 html {

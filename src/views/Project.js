@@ -35,7 +35,6 @@ const projects = [
 const Project = () => {
   return (
     <main className="main">
-      <h1>💬 준비중...</h1>
       <ProjectContainer>
         <ProjectList>
           {projects.map((project) => {
