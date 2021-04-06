@@ -5,25 +5,7 @@ import styled from 'styled-components';
 const projects = [
   {
     id: 1,
-    title: 'Parking Factory1',
-    description: '주차장 입,출차 무인 정산 시스템',
-    stack: 'JavaScript, Node.js, MySQL, CSS',
-    repository: 'https://github.com/minholeelog/parking-factory-v1.0',
-    roles: '기획,서버 구축, DB 설계, 입,출차 기능 구현',
-    thumbnail: '/projects/parking_factory.png',
-  },
-  {
-    id: 2,
-    title: 'Parking Factory2',
-    description: '주차장 입,출차 무인 정산 시스템',
-    stack: 'JavaScript, Node.js, MySQL, CSS',
-    repository: 'https://github.com/minholeelog/parking-factory-v1.0',
-    roles: '기획,서버 구축, DB 설계, 입,출차 기능 구현',
-    thumbnail: '/projects/parking_factory.png',
-  },
-  {
-    id: 3,
-    title: 'Parking Factory3',
+    title: 'Parking Factory',
     description: '주차장 입,출차 무인 정산 시스템',
     stack: 'JavaScript, Node.js, MySQL, CSS',
     repository: 'https://github.com/minholeelog/parking-factory-v1.0',
