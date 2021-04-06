@@ -23,9 +23,9 @@
 
 ### Pages
 
-- [ ] Home
-- [ ] Project
-- [ ] About
+- [x] Home
+- [x] Project
+- [x] About
 
 ### Partials
 
@@ -35,14 +35,13 @@
 ### Components
 
 - [ ] Project
-- [ ] About
+- [x] About
 - [x] Word Cloud
 
 ### etc.
 
 - [x] Word Cloud 라이브러리 적용
 - [ ] Dark Mode 전환 대응
-- [ ] 영문 웹 페이지 제작
 
 ## ✅ Todo
 
